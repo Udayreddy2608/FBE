@@ -1,0 +1,66 @@
+# Generic .gitignore
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log
+.pnp/
+.pnp.js
+
+# Build / output
+dist/
+build/
+out/
+coverage/
+coverage*.xml
+
+# Logs
+*.log
+logs/
+pids/
+*.pid
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+.venv/
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+.python-version
+.pytest_cache/
+.mypy_cache/
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+secrets.env
+
+# IDEs / editors
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# Editor backup / swap
+*~
+*.swp
+*.swo
+
+# Misc
+*.zip
+*.tar.gz
